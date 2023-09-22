@@ -1,5 +1,0 @@
-Guia de referência Mozilla de JS
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide
-
-Módulo A
-01-02-03-04-05-06-
