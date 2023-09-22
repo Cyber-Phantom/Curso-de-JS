@@ -62,11 +62,11 @@ n.toFixed(2) --> determina o número de casa decimáis fixas
 
 n.toFixed(2).replace('.', ',') --> determina o número de casa decimáis fixas TROCANDO o ponto por vírgula
 
-n.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'}) --> coloca o R$
+n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) --> coloca o R$
 
-n.toLocaleString('pt-BR', {style: 'currency', currency:'USD'}) --> coloca o US$
+n.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) --> coloca o US$
 
-n.toLocaleString('pt-BR', {style: 'currency', currency:'EUR'}) --> coloca o £
+n.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) --> coloca o £
 
 
 ## Módulo A
