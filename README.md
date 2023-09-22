@@ -29,15 +29,48 @@ const -->> constantes
 
 ### Comentários
 
-// Linha única
+// Linha única (JS)
 
-/* comentário de várias linhas */
+/* comentário de várias linhas */ (CSS e JS)
 
 Tanto no HTML quanto no MarkDown as marcações são iguais. Há um comentário no final deste texto. Para vê-lo, entre no modo de edição 
-<!-- Comentário para HTML. A exclamação e os dois traços fazem parte --> 
+<!-- Comentário para HTML e MarkDown. Se inicia com <, a exclamação e os dois traços e fecha com dois traços e o sinal de >. Serve para comentar linha única e várias linhas -->
+
+### Conversões
+
+CUIDADO: O comando WINDOW.PROMPT trata a entrada como string
+
+Number.parseInt(n) --> Converte string para number inteiro
+
+Number.parseFloat(n) --> converte strint para number flutuante
+
+Number(n) --> JS faz a conversão para number
+
+string(n) --> number para string
+
+n.toString --> converte para string
+
+Template string -->> `${n}` -->> ATENÇÃO: expressão entre CRASES
+
+s.lenght --> mostra o tamanho da string s
+
+s.toUpperCase() --> transforma em maiúsculas a variável s
+
+s.toLowerCase() --> transforma em minúsculas a variável s
+
+n.toFixed(2) --> determina o número de casa decimáis fixas
+
+n.toFixed(2).replace('.', ',') --> determina o número de casa decimáis fixas TROCANDO o ponto por vírgula
+
+n.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'}) --> coloca o R$
+
+n.toLocaleString('pt-BR', {style: 'currency', currency:'USD'}) --> coloca o US$
+
+n.toLocaleString('pt-BR', {style: 'currency', currency:'EUR'}) --> coloca o £
+
 
 ## Módulo A
 01-02-03-04-05-06-07
 
 ## Módulo B
-08-09-
+08-09-10-
