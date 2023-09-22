@@ -12,6 +12,8 @@ var -->> global
 
 let -->> local
 
+const -->> constantes
+
 ### Tipos de dados
 
 * number
@@ -24,6 +26,12 @@ let -->> local
 * object
     * array
 * function
+
+### Comentários
+
+// Linha única
+/* comentário de várias linhas */
+<!-- Comentário para HTML. A exclamação e os dois traços fazem parte --> 
 
 ## Módulo A
 01-02-03-04-05-06-07
