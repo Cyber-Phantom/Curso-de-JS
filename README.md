@@ -12,7 +12,7 @@ var -->> global
 
 let -->> local
 
-Tipos de dados
+### Tipos de dados
 
 * number
     * infinity
