@@ -30,7 +30,10 @@ const -->> constantes
 ### Comentários
 
 // Linha única
+
 /* comentário de várias linhas */
+
+Tanto no HTML quanto no MarkDown as marcações são iguais. Há um comentário no final deste texto. Para vê-lo, entre no modo de edição 
 <!-- Comentário para HTML. A exclamação e os dois traços fazem parte --> 
 
 ## Módulo A
