@@ -68,6 +68,11 @@ n.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) --> coloca o US$
 
 n.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) --> coloca o £
 
+## INCREMENTOS
+
+x = x + 1 --> x += 1 --> x++ (incrementa depois) --> ++x (incrementa antes)
+
+x = x - 1 --> x -=1 --> x-- (decrementa depois) --> --x (decrementa antes)
 
 ## Módulo A
 01-02-03-04-05-06-07
