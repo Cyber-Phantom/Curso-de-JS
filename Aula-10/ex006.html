@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,9 +17,30 @@
         }
     </style>
 </head>
+
 <body>
+    <!-- <div id="area" onclick="Clicar()" onmouseenter="Entrar()" onmouseout="Sair()"> -->
     <div id="area">
         Interaja...
     </div>
+    <script> 
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', Clicar) // Todos os eventos sem "on"
+        a.addEventListener('mouseenter', Entrar)
+        a.addEventListener('mouseout', Sair)
+
+        function Clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'red'
+        }
+        function Entrar() {
+            a.innerText = 'Entrou!'
+        }
+        function Sair() {
+            a.innerText = "Saiu!"
+            a.style.background = 'green'
+        }
+    </script>
 </body>
+
 </html>
