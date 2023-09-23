@@ -68,14 +68,44 @@ n.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) --> coloca o US$
 
 n.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) --> coloca o £
 
-## INCREMENTOS
+### INCREMENTOS
 
 x = x + 1 --> x += 1 --> x++ (incrementa depois) --> ++x (incrementa antes)
 
 x = x - 1 --> x -=1 --> x-- (decrementa depois) --> --x (decrementa antes)
 
+### OPERADORES RELACIONAIS
+
+5 == 5    --> true
+5 == '5'  --> true -->> JS NÃO TESTA O TIPO
+5 === '5' --> FALSE -->> Operador de identidade
+5 === 5   --> true
+5 != 4    --> true -->> diferente
+5 != '5'  --> false
+5 !== '5' --> true -->> não identico
+
+### OPERADORES LÓGICOS
+
+!  --> not
+&& --> and
+|| --> or (barra vertical - pipes)
+
+### OPERADOR TERNÁRIO
+
+teste ? true : false
+
+let media = 7
+let condicao
+media > 6 ? condicao = 'aprovado' : condicao = 'reprovado'
+
+let nota = 8
+let res = 0
+res = nota % 2 == 0 ? 5 : 7
 ## Módulo A
 01-02-03-04-05-06-07
 
 ## Módulo B
-08-09-10-
+08-09-10-11-12
+
+## Módulo C
+13-
