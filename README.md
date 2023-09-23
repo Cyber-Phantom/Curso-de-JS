@@ -6,6 +6,9 @@ ANOTAÇÕES DO CURSO
 Guia de referência Mozilla de JS
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide
 
+Guia de referência para EVENTOS DOM
+https://developer.mozilla.org/en-US/docs/Web/Events
+
 ## Anotações gerais
 
 var -->> global

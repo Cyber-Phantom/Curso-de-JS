@@ -15,6 +15,7 @@
 <body>
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
 
     <div id="msg">Clique em mim</div> <!-- embora as aspas simples funcionem, o padrão é aspas duplas -->
     <div name="msg2">Div name</div>
@@ -22,7 +23,6 @@
     <div id="msg4">Div id="msg4"</div>
     <div class="msg5">Div class="msg5"</div>
 
-    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
     <script>
         var p1 = window.document.getElementsByTagName('p')[0]
         var p2 = window.document.getElementsByTagName('p')[1]
@@ -30,14 +30,15 @@
         var d = window.document.getElementById('msg')
         var d2 = window.document.getElementsByName('msg2')[0] // ATENÇÃO PARA A MATRIZ -->> Elements --> plural
         var d3 = window.document.getElementsByClassName('msg3')[0] // ATENÇÃO PARA A MATRIZ -->> Elements
-        // para id -->> usa-se #
-        // para class -->> usa-se .
+        // para id e name -->> usa-se #
+        // para class -->> usa-se . (ponto)
         var d4 = window.document.querySelector('div#msg4')
         var d5 = window.document.querySelector('div.msg5')
 
-        window.document.write('Está escrito: ' + p1.innerText + '<br>')
+        window.document.write('<br>' + 'Está escrito: ' + p1.innerText + '<br><br>')
         corpo.style.background = 'black'
         p1.style.color = 'blue'
+
         window.document.write('InnerText: ' + p2.innerText + '<br>') // Sem negrito (sem formatação)
         window.document.write('InnerHTML: ' + p2.innerHTML) // com formatação
 
