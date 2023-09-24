@@ -104,6 +104,46 @@ media > 6 ? condicao = 'aprovado' : condicao = 'reprovado'
 let nota = 8
 let res = 0
 res = nota % 2 == 0 ? 5 : 7
+
+### Condicionantes
+
+if (condição) {
+    ação
+}
+
+if (condição) {
+    ação
+} 
+else {
+    ação
+}
+
+if (condição) {
+    ação
+} else if (condição) {
+    ação
+} else if (condição) {
+    ação
+} else {
+    ação
+}
+
+switch(expressão) {
+    case valor1: 
+        ação1
+        ação2
+        break
+    case valor2:
+        ação1
+        break
+    case valor3:
+        ação1
+        ação2
+        ação3
+        break
+    default:
+        ação
+}
 ## Módulo A
 01-02-03-04-05-06-07
 
@@ -111,4 +151,7 @@ res = nota % 2 == 0 ? 5 : 7
 08-09-10-11-12
 
 ## Módulo C
-13-14-
+13-14-15
+
+## Módulo D
+16-17-18-

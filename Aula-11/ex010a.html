@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checagem de país</title>
+</head>
+<style>
+    body {
+        font: normal 18px arial;
+    }
+</style>
+
+<body>
+    <h1>Checagem de Nacionalidade</h1>
+
+    Informe o seu pais de nascimento: <input type="text" name="txtPais" id="txtPais">
+    <input type="button" value="Nacionalidade" onclick="Checar()">
+    <div id="res"></div>
+    <script>
+        function Checar() {
+            var tPais = document.querySelector('input#txtPais').value
+            var res = document.querySelector('div#res')
+
+            res.innerHTML = `<br>Seu país de nascimento é <strong>${tPais.toUpperCase()}</strong>.<br><br>`
+
+            if (tPais == 'BRASIL') { // Condição composta
+                res.innerHTML += `E sua nacionalidade é <strong>brasileira</strong>.`
+            }
+            else {
+                res.innerHTML += `E sua nacionalidade é <strong>estrangeira</strong>.`
+            }
+        }
+    </script>
+</body>
+
+</html>
