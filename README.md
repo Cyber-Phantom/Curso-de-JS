@@ -11,10 +11,8 @@ https://developer.mozilla.org/en-US/docs/Web/Events
 
 ## Anotações gerais
 
-var -->> global
-
-let -->> local
-
+var -->> global<br>
+let -->> local<br>
 const -->> constantes
 
 ### Tipos de dados
@@ -79,70 +77,70 @@ x = x - 1 --> x -=1 --> x-- (decrementa depois) --> --x (decrementa antes)
 
 ### OPERADORES RELACIONAIS
 
-5 == 5    --> true
-5 == '5'  --> true -->> JS NÃO TESTA O TIPO
-5 === '5' --> FALSE -->> Operador de identidade
-5 === 5   --> true
-5 != 4    --> true -->> diferente
-5 != '5'  --> false
-5 !== '5' --> true -->> não identico
+5 == 5    --> true <br>
+5 == '5'  --> true -->> JS NÃO TESTA O TIPO <br>
+5 === '5' --> FALSE -->> Operador de identidade <br>
+5 === 5   --> true <br>
+5 != 4    --> true -->> diferente <br>
+5 != '5'  --> false <br>
+5 !== '5' --> true -->> não identico <br>
 
 ### OPERADORES LÓGICOS
 
-!  --> not
-&& --> and
-|| --> or (barra vertical - pipes)
+!  --> not <br>
+&& --> and <br>
+|| --> or (barra vertical - pipes)<br>
 
 ### OPERADOR TERNÁRIO
 
 teste ? true : false
 
-let media = 7
-let condicao
+let media = 7<br>
+let condicao<br>
 media > 6 ? condicao = 'aprovado' : condicao = 'reprovado'
 
-let nota = 8
-let res = 0
+let nota = 8<br>
+let res = 0<br>
 res = nota % 2 == 0 ? 5 : 7
 
 ### Condicionantes
 
-if (condição) {
-    ação
+if (condição) {<br>
+    ação<br>
 }
 
-if (condição) {
-    ação
-} 
-else {
-    ação
+if (condição) {<br>
+    ação<br>
+} <br>
+else {<br>
+    ação<br>
 }
 
-if (condição) {
-    ação
-} else if (condição) {
-    ação
-} else if (condição) {
-    ação
-} else {
-    ação
+if (condição) {<br>
+    ação<br>
+} else if (condição) {<br>
+    ação<br>
+} else if (condição) {<br>
+    ação<br>
+} else {<br>
+    ação<br>
 }
 
-switch(expressão) {
-    case valor1: 
-        ação1
-        ação2
-        break
-    case valor2:
-        ação1
-        break
-    case valor3:
-        ação1
-        ação2
-        ação3
-        break
-    default:
-        ação
+switch(expressão) {<br>
+    case valor1: <br>
+        ação1<br>
+        ação2<br>
+        break<br>
+    case valor2:<br>
+        ação1<br>
+        break<br>
+    case valor3:<br>
+        ação1<br>
+        ação2<br>
+        ação3<br>
+        break<br>
+    default:<br>
+        ação<br>
 }
 
 ## Módulo A
