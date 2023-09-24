@@ -144,6 +144,7 @@ switch(expressão) {
     default:
         ação
 }
+
 ## Módulo A
 01-02-03-04-05-06-07
 
