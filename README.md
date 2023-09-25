@@ -201,6 +201,15 @@ for (var c = 1; c <= 6; c++) {
 
 F10 para continuar
 
+### ARRAY
+
+![Array](1.jpeg)
+
+num[3] = 6 >> cria celula e atribui o 6 a ela<br>
+num.push(7) >> idem - atribui o 7<br>
+num.length >> tamanho do array<br>
+num.sort( ) >> ordena o array
+
 ## Módulo A
 01-02-03-04-05-06-07
 
