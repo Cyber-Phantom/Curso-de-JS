@@ -214,4 +214,7 @@ F10 para continuar
 16-17-18-19-20-21
 
 ## Módulo E
-22-23-24(aula do debug)-25-26-
+22-23-24(aula do debug)-25-26-27
+
+## Módulo F
+28-
