@@ -197,6 +197,17 @@ for (var c = 1; c <= 6; c++) {
 }
 ```
 
+FOR para ARRAY
+
+```
+for (variavel in array) {
+    ação
+}
+
+for (let pos in valores) {
+    console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+}
+```
 ### DEBUG
 
 F10 para continuar
@@ -205,11 +216,13 @@ F10 para continuar
 
 ![Array](1.jpeg)
 
-num[3] = 6 >> cria celula e atribui o 6 a ela<br>
+num[3] = 6 >> cria novo elemento e atribui o 6 a ele<br>
 num.push(7) >> idem - atribui o 7<br>
 num.length >> tamanho do array<br>
 num.sort( ) >> ordena o array
 
+num.indexOf(6) >> retorna a posição 2<br>
+num.indexOf(3) >> retorna -1 porque não encontrou o valor no array
 ## Módulo A
 01-02-03-04-05-06-07
 
@@ -226,4 +239,4 @@ num.sort( ) >> ordena o array
 22-23-24(aula do debug)-25-26-27
 
 ## Módulo F
-28-
+28-29-
