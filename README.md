@@ -151,6 +151,56 @@ switch(expressão) {
 }
 ```
 
+### Laços WHILE
+
+```
+>>> TESTA ANTES <<<
+
+while (condição) {
+    ação1
+    ação2
+}
+
+>>> TESTA DEPOIS <<<
+
+do {
+    ação1
+    ação2
+    ação3
+} while (condição)
+
+Para FORÇAR A PARADA usa-se o comando >>> break
+
+while (condição) {
+    açao1
+    ação2
+    if (condição) {
+        break // a ação3 e 4 não são executadas
+    }
+    ação3
+    ação4
+}
+```
+
+### Laços FOR
+
+```
+for (inicialização; condição; incremento) {
+    ação1
+    ação2
+    ação3
+}
+
+for (var c = 1; c <= 6; c++) {
+    console.log(`Com for c = ${c}`)
+    if (c > 3) {break} // ATENÃO: break tbm funciona para o FOR
+}
+```
+
+### DEBUG
+
+F10 para continuar
+
 ## Módulo A
 01-02-03-04-05-06-07
 
@@ -161,4 +211,7 @@ switch(expressão) {
 13-14-15
 
 ## Módulo D
-16-17-18-19-20-
+16-17-18-19-20-21
+
+## Módulo E
+22-23-24(aula do debug)-25-26-
