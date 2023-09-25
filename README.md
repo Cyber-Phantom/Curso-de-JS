@@ -239,4 +239,4 @@ num.indexOf(3) >> retorna -1 porque não encontrou o valor no array
 22-23-24(aula do debug)-25-26-27
 
 ## Módulo F
-28-29-
+28-29-30-31-
