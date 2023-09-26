@@ -112,8 +112,12 @@ res = nota % 2 == 0 ? 5 : 7
 ### Condicionantes
 
 ```
-if (condição) {
+if (condição) >>> nesse caso não há necessodade do bloco { }
     ação
+
+if (condição) {
+    ação1
+    ação2
 }
 
 if (condição) {
@@ -124,7 +128,7 @@ else {
 }
 
 if (condição) {
-    ação<br>
+    ação
 } else if (condição) {
     ação
 } else if (condição) {
@@ -239,4 +243,4 @@ num.indexOf(3) >> retorna -1 porque não encontrou o valor no array
 22-23-24(aula do debug)-25-26-27
 
 ## Módulo F
-28-29-30-31-
+28-29-30-31-32-33
